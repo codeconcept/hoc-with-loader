@@ -1,12 +1,12 @@
-import React from 'react';
-import './App.css';
-import Message from './Message';
+import React from "react";
+import "./App.css";
+import Message from "./Message";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Message text="coucou" />
+        <Message text="" fromAPI="true" />
       </header>
     </div>
   );
